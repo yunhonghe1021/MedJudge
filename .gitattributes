@@ -1,0 +1,10 @@
+# --- Git LFS tracked types ---
+# images
+*.jpg  filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.png  filter=lfs diff=lfs merge=lfs -text
+# archives
+*.zip  filter=lfs diff=lfs merge=lfs -text
+# large dataset json
+Medthink_Dataset/**/*.json        filter=lfs diff=lfs merge=lfs -text
+LLaMA-Factory/data/medjudge/*.json filter=lfs diff=lfs merge=lfs -text

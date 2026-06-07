@@ -1,0 +1,10 @@
+# OS / editor junk
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# synthetic / calibrated intermediate outputs (not part of the released dataset)
+LLaMA-Factory/data/medjudge/model_results/
+LLaMA-Factory/data/medjudge/model_results.zip
