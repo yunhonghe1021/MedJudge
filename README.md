@@ -1,11 +1,12 @@
 # MedJudge: Medical Multimodal Reward Modeling
 
 > **MedJudge: Medical Multimodal Reward Modeling**
+>
 > Yunhong He\*, Kai Zhang¹, Jiarong Qian², Zhengqing Yuan³, Yanfang Ye³, Jing Huang², Lichao Sun¹\*†
 >
 > ¹Lehigh University&nbsp;&nbsp;²Rice University&nbsp;&nbsp;³University of Pennsylvania&nbsp;&nbsp;⁴University of Notre Dame
 >
-> <sub>\*Equal contribution&nbsp;&nbsp;†Corresponding author</sub>
+
 
 This repository contains the official implementation of **MedJudge**, a framework
 for building and evaluating **medical multimodal judges / reward models** that
