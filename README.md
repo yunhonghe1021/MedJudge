@@ -95,6 +95,16 @@ pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/e
 
 ## Data
 
+![Distribution of the synthesized MedJudge data](assets/data_distribution.png)
+
+> **Distribution of the synthesized training data.** **(a)** Correct answers are
+> near-balanced between options A and B. **(b)** Open-ended training samples per
+> source dataset (R-RAD, R-SLAKE, R-PathVQA). **(c)** Pairwise samples before vs.
+> after quality filtering (69,485 → 68,382 — minimal loss during cleaning).
+> **(d)** Sample counts from the five synthesis strategies: Random Pairing (RP),
+> Semantic Similarity Pairing (SSP), Structured Content Modification (SCM),
+> Sentence-level Perturbation (SLP), and Model-generated Alternatives (MGA).
+
 The datasets are registered in `LLaMA-Factory/data/dataset_info.json` and stored
 under `LLaMA-Factory/data/medjudge/`:
 
